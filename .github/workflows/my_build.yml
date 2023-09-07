@@ -8,7 +8,7 @@ jobs:
     uses: ./.github/workflows/main.yml
     secrets: inherit
     with:
-      alphas: 'Dvorak'
+      alphas: '["Dvorak"]'
       board: '["nice_nano_v2"]'
-      shield: '["corne_left nice_view_adapter nice_view","corne_right nice_view_adapter nice_view"]'
+      shield: '["chok_corne_left nice_view_adapter nice_view","chok_corne_right nice_view_adapter nice_view"]'
       kconfig: '["CONFIG_ZMK_DISPLAY=y"]'
